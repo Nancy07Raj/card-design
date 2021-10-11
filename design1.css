@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  /* position: relative; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #80ed99;
+  width: 800px;
+  height: 800px;
+  position: relative;
+  width: 100%;
+}
+.main {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: ; */
+  /* align-items: flex-start; */
+  height: 600px;
+  width: 600px;
+  /* right: 300px;
+  top: 100px; */
+  background-color: white;
+}
+.left {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  height: 300px;
+  width: 300px;
+  background-color: greenyellow;
+  left: 50px;
+  top: 50px;
+  border: 1px solid gray;
+}
+.main-right {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  /* top: 40px;
+  right: 30px; */
+  background-color: green;
+}
+.div-apple {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+.img-apple {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+}
+.img-apple:hover {
+  border: 1px solid gray;
+}
